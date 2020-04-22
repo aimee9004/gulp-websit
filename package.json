@@ -1,0 +1,19 @@
+{
+  "name": "gulp-website",
+  "title": "gulp模板",
+  "version": "1.0.0",
+  "author": {
+    "name": "nszbf",
+    "url": "http://www.nszbf.me"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.0.1",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}

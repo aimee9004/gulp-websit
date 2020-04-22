@@ -1,0 +1,37 @@
+    <footer>
+        
+    </footer>
+    <div class="commin-right-box E-right-box">
+        <div class="item backtop" title="返回顶部" data-hk="backtop">
+            <img src="./image/back-top.png" alt="">
+        </div>
+    </div>
+    <script src="./js/bootstrap.min.js"></script>
+    <script>
+        $(function(){
+            var rightBox = $('.E-right-box');
+            rightBox.on('click', '[data-hk="backtop"]', function(){
+                $('html,body').animate({
+                    scrollTop:0
+                });
+            });
+        });
+    </script>
+    @@if (context.index === 'active'){
+        <script src="./js/swiper.min.js"></script>
+        <script>
+            $(function(){
+                console.log(111);
+            });
+        </script>
+    }
+    @@if (context.page === 'active'){
+        <script>
+            $(function(){
+                console.log(222);
+            });
+        </script>
+    }
+    <!-- <script src="./js/lodash/lodash.min.js"></script> -->
+</body>
+</html>
